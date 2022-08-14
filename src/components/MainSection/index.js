@@ -22,10 +22,18 @@ const MainSection = () => {
     <HeroContainer>
         <HeroContent>
             <HeroH1>
-                Mio padre è un pollacchione
+            Da un po' di tempo <br/>
+Spesso mi viene in mente <br/>
+Quella poesia di Dante <br/>
+Quella dove lui diceva:
             </HeroH1>
             <HeroP>
-                idee tanto poche, realizzazione tanto svogliata
+            "Quanto mi piacerebbe <br/>
+Che il tempo si fermasse<br/>
+Mentre io me ne sto su una barca<br/>
+Con un paio di amici miei e qualche amichetta<br/>
+A parlare d'amore e a cazzeggiare"<br/>
+
             </HeroP>
             <HeroBtnWrapper>
                 <Button to='signup'
@@ -33,7 +41,7 @@ const MainSection = () => {
                 onMouseLeave={onHover} 
                 primary="true"
                 dark="true">
-                    Entra in questo bluff {hover ? <ArrowForward/> : <ArrowRight/>}
+                    Tipo i video dei rappers americani {hover ? <ArrowForward/> : <ArrowRight/>}
 
                 </Button>
             </HeroBtnWrapper>

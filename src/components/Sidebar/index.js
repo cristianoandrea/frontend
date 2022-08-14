@@ -21,8 +21,11 @@ const Sidebar = ({isOpen, toggle}) => {
         <SidebarMenu>
           <SidebarLink to="about" onClick={ toggle }>About</SidebarLink>
           <SidebarLink to="salute" onClick={ toggle }>Salute</SidebarLink>
+          <SidebarLink to="pensione" onClick={ toggle }>Pensione</SidebarLink>
           <SidebarLink to="prodotti" onClick={ toggle }>Prodotti</SidebarLink>
-          <SidebarLink to="signup" onClick={ toggle }>Sign up</SidebarLink>
+          <SidebarLink to="cuccioli" onClick={ toggle }>Cuccioli</SidebarLink>
+          <SidebarLink to="servizi" onClick={ toggle }>Servizi</SidebarLink>
+          
         </SidebarMenu>
 
         <SideBtnWrap>
