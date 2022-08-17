@@ -5,6 +5,7 @@ import MainSection from './../components/MainSection';
 import { BrowserRouter as Router} from 'react-router-dom'
 import InfoSection from '../components/InfoSection';
 import Services from '../components/Services'
+import Footer from '../components/Footer'
 import { homeObjOne,
      homeObjTwo,
      homeObjThree,
@@ -31,6 +32,7 @@ const Home = () => {
         <InfoSection {...homeObjFive}/>
         <InfoSection {...homeObjSix}/>
         <Services/>
+        <Footer />
     </>
 
     )

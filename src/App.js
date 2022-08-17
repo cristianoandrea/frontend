@@ -1,12 +1,16 @@
 import './App.css';
-import { BrowserRouter as Router} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from './pages';
-import React from 'react';
+import SignInPage from './pages/signin';
 
 function App() {
   return (
     <Router >
-      <Home/>
+      <Routes>
+        <Route path='/' caseSensitive={false} element={<Home />} />
+        <Route path='/signin' caseSensitive={false} element={<SignInPage />} />
+      </Routes>
+      
     </Router>
   );
 }
