@@ -124,16 +124,19 @@ export const NavBtnLink= styled(LinkRouter)`
 `
 
 
+export const NavLink1 = styled(LinkRouter)`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height:100%;
+    cursor:pointer;
+
+    &.active {
+        border-bottom: 3px solid #01bf71;
+    }
+`;
 
 
-/*
 
-height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-*/

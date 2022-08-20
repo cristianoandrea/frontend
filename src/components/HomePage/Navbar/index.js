@@ -10,7 +10,8 @@ import { Nav,
     NavMenu,
     MobileIcon,
     NavBtn,
-    NavBtnLink} from './NavbarElements'
+    NavBtnLink,
+    NavLink1} from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
   
@@ -49,16 +50,16 @@ const Navbar = ({ toggle }) => {
                         <NavLink to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="salute" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Salute</NavLink>
+                        <NavLink1 to="/store" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Store</NavLink1>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="pensione" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Pensione</NavLink>
+                        <NavLink1 to="/presenza" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Presenza</NavLink1>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="prodotti" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Prodotti</NavLink>
+                        <NavLink1 to="/online" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Online</NavLink1>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="cuccioli" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Cuccioli</NavLink>
+                        <NavLink1 to="/community" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Community</NavLink1>
                     </NavItem>
                     <NavItem>
                         <NavLink to="servizi" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Servizi</NavLink>

@@ -1,17 +1,19 @@
 import React, {useState} from 'react'
-import Navbar from './../components/Navbar';
-import Sidebar from './../components/Sidebar';
-import MainSection from './../components/MainSection';
+import Navbar from './../components/HomePage/Navbar';
+import Sidebar from './../components/HomePage/Sidebar';
+import MainSection from './../components/HomePage/MainSection';
 import { BrowserRouter as Router} from 'react-router-dom'
-import InfoSection from '../components/InfoSection';
-import Services from '../components/Services'
-import Footer from '../components/Footer'
+import InfoSection from '../components/HomePage/InfoSection';
+import Services from '../components/HomePage/Services'
+import Footer from '../components/HomePage/Footer'
 import { homeObjOne,
      homeObjTwo,
      homeObjThree,
      homeObjFour,
      homeObjFive,
-     homeObjSix } from '../components/InfoSection/Data';
+     homeObjSix } from '../components/HomePage/InfoSection/Data';
+
+
 const Home = () => {
 
     const[isOpen, setIsOpen] = useState(false)

@@ -95,3 +95,20 @@ export const SidebarRoute = styled(LinkRouter)`
 `
 
 
+export const SidebarLink1 = styled(LinkRouter)`
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style:none;
+    transition:0.2s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+    cursor: ponter;
+
+    &:hover { 
+      color: #01bf71;
+      transition: 0.2s ease-in-out;
+    }
+`
