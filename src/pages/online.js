@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Navbar from '../components/HomePage/Navbar'
+import Sidebar from '../components/HomePage/Sidebar'
 
 const OnlinePage = () => {
+
+  const[isOpen, setIsOpen] = useState(false);
+
+  const toggle = ()=> {
+      setIsOpen(!isOpen)
+  }
+
   return (
-    <div>OnlinePage</div>
+
+    <>
+      <Sidebar isOpen={isOpen} toggle={toggle}/>
+      <Navbar toggle={toggle}/>
+      
+    </>
+    
   )
 }
 

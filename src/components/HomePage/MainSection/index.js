@@ -2,7 +2,6 @@ import React , {useState} from 'react'
 import {Button} from '../../ButtonElement'
 import {
     HeroContainer,
-    HeroBG,
     HeroContent,
     HeroH1,
     HeroP,
